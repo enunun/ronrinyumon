@@ -1,0 +1,33 @@
+\contentsline {chapter}{はじめに}{i}
+\contentsline {chapter}{\numberline {第1章}現代数学への展望}{1}
+\contentsline {section}{\numberline {{\S } 1.1}幾何学の歴史と公理論}{2}
+\contentsline {paragraph}{幾何学の起源}{2}
+\contentsline {paragraph}{古代ギリシャの数学}{2}
+\contentsline {paragraph}{Euclidの原論}{3}
+\contentsline {paragraph}{非Euclid幾何学の登場}{5}
+\contentsline {paragraph}{公理論と形式主義}{7}
+\contentsline {section}{\numberline {{\S } 1.2}定義の手法とそのwell-defined性}{11}
+\contentsline {paragraph}{定義の手法}{11}
+\contentsline {paragraph}{well-defined性}{14}
+\contentsline {section}{\numberline {{\S } 1.3}数学的構造}{16}
+\contentsline {section}{\numberline {{\S } 1.4}よく使う数学界の方言}{22}
+\contentsline {chapter}{\numberline {第2章}記号論理超入門}{23}
+\contentsline {section}{\numberline {{\S } 2.1}命題論理と述語論理}{24}
+\contentsline {paragraph}{命題と条件}{24}
+\contentsline {paragraph}{命題結合記号}{25}
+\contentsline {paragraph}{限定記号}{30}
+\contentsline {paragraph}{矛盾記号}{33}
+\contentsline {section}{\numberline {{\S } 2.2}変数の束縛}{34}
+\contentsline {paragraph}{自由変数と束縛変数}{34}
+\contentsline {paragraph}{対象領域}{37}
+\contentsline {section}{\numberline {{\S } 2.3}必要性と十分性}{38}
+\contentsline {paragraph}{必要条件と十分条件}{38}
+\contentsline {section}{\numberline {{\S } 2.4}シークエントを利用した自然演繹}{42}
+\contentsline {paragraph}{シークエント}{42}
+\contentsline {paragraph}{推論規則}{44}
+\contentsline {paragraph}{シークエント計算}{47}
+\contentsline {section}{\numberline {{\S } 2.5}等号について}{67}
+\contentsline {paragraph}{等号公理}{67}
+\contentsline {paragraph}{唯一存在記号}{70}
+\contentsline {chapter}{演習問題略解}{73}
+\contentsline {chapter}{参考文献}{79}

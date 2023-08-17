@@ -1,0 +1,208 @@
+\chapter{演習問題略解} \label{answer}
+\begin{description}
+  \item[\refque{chp:sequent.sec:ronri.que:singihantei}] \mbox{}
+  \begin{enumerate}
+   \item 偽
+   \item 真
+   \item 真
+   \item 偽（反例は$x=3,  y=2$など）
+   \item 偽
+   \item 真
+  \end{enumerate}
+\item[\refque{chp:sequent.sec:hensuu.que:sokubakusingi}] \mbox{} 
+  \begin{enumerate}
+   \item 偽（反例は$x=1$など）
+   \item 真
+   \item 偽
+   \item 真
+   \item 真 （$x=3$とでもすればよい）
+   \item 偽
+  \end{enumerate}
+\item[\refque{chp:sequent.sec:hituyoujubun.que:xhituyoujubun}] \mbox{} 
+  \begin{enumerate}
+   \item 正しくない
+   \item 正しい
+   \item 正しい
+  \end{enumerate}
+\item[\refque{que:kigoukaranihongo}] \mbox{} \\
+  ここに挙げるのはあくまで一例である．
+  細かい言い回しを考えれば，解答として適切なものはいくつも考えられるであろう．
+  \begin{enumerate}
+    \item  $F(x)$となる$x$がただひとつ存在する．
+    \item 任意の$\varepsilon >0$に対して$\delta >0$が存在して，
+      $0< \lvert x- a \rvert < \delta$を満たす任意の$x \in I$に対して
+      $\lvert f(x) -A \rvert < \varepsilon$が成り立つ．
+    \item 任意の$y \in Y$に対して$x \in X$が存在して，$y=f(x)$となる．
+    \item $f(x_1 )=f(x_2) $を満たす任意の$x_1, x_2 \in X$に対して$x_1 = x_2$が成り立つ．
+    \item 任意の$a,b >0$に対して自然数$N$で$Na >b$となるものがとれる．
+  \end{enumerate}
+
+\item[\refque{que:nihongokarakigou}] \mbox{} \\
+  \begin{enumerate}
+    \item $\forall x ( x \in A \to x \in B).$
+      （「必ず」とあることを考えれば$x$には全称記号をつけるのが妥当であろう）
+    \item $\forall \varepsilon >0 \exists N \in \mathbb{N} \forall n,m \in \mathbb{N}
+      (n,m \geq N \to \lvert a_n - a_m \rvert < \varepsilon ).$
+    \item $\forall x,y \in \mathbb{R} (x^2+y^2=1 \to \exists \theta \in \mathbb{R} 
+      ( 0 \leq \theta <2 \pi \land (x= \cos \theta \land y= \sin \theta ))).$
+    \item $\exists c \in \mathbb{R}(\forall x \in S ( x \leq c ) \land 
+      \forall M \in \mathbb{R} (\forall x \in S (x \leq M) \to c \leq M)).$
+  \end{enumerate}
+\item[\refque{que:haityurituouyou}] \mbox{} \\  
+  $\sqrt{2}^{\sqrt{2}}$が有理数の場合には$a = b= \sqrt{2}$とすればよい．
+  $\sqrt{2}^{\sqrt{2}}$が有理数でない場合には，
+  $\sqrt{2}^{\sqrt{2}}$は無理数であるから
+  $a = \sqrt{2} ^{\sqrt{2}},  b= \sqrt{2}$とすればよい．
+
+\item[\refque{que:meidaiketugouritu}] \mbox{} \\
+  式\eqref{eq:lorketugouritu}の証明のうち，
+  シークエント$A \lor ( B \lor C ) \Longrightarrow (A \lor B) \lor C$
+  の導出をする（ほかのものは省略する）．
+  \begin{enumerate}[1. ]
+    \item $A \lor ( B \lor C) \Longrightarrow A \lor (B \lor C)$
+           \quad ［始式］
+    \item $A \Longrightarrow A$ \quad ［始式］
+    \item $A \Longrightarrow A \lor B$ \quad ［2.から$\lor$導入による］
+    \item $A \Longrightarrow (A \lor B ) \lor C$ \quad ［3.から$\lor$導入による］
+    \item $B \lor C \Longrightarrow B \lor C$ \quad ［始式］
+    \item $B \Longrightarrow B$ \quad ［始式］
+    \item $B \Longrightarrow A \lor B$ \quad ［6.から$\lor$導入による］
+    \item $B \Longrightarrow ( A \lor B) \lor C$ \quad ［7.から$\lor$導入による］
+    \item $C \Longrightarrow C$ \quad ［始式］
+    \item $C \Longrightarrow (A \lor B ) \lor C$ \quad ［9.から$\lor$導入による］
+    \item $B \lor C \Longrightarrow (A \lor B ) \lor C$
+           \quad ［$5., 8., 10.$から$\lor$除去による］
+    \item $A \lor ( B \lor C) \Longrightarrow (A \lor B ) \lor C$
+           \quad ［$1., 4., 11.$から$\lor$除去による］
+  \end{enumerate}
+
+\item[\refque{que:Dnarabanot}] \mbox{} \\
+  式\eqref{eq:Dnotall}を示す．
+  \begin{align*}
+    \lnot \forall x \in D ( F(x) ) & \equiv \lnot \forall x ( x \in D \to F(x) ) \\
+                                   & \equiv \exists x ( x \in D \land \lnot F(x) ) \\
+                                   & \equiv \exists x \in D ( \lnot F(x) ) .
+  \end{align*}
+  次に式\eqref{eq:Dnotexists}を示す．
+  \begin{align*}
+    \lnot \exists x \in D(F(x)) & \equiv \lnot \exists x ( x \in D \land F(x) ) \\
+                                & \equiv \forall x \lnot ( x \in D \land F(x) ) \\
+                                & \equiv \forall x ( \lnot ( x \in D) \lor \lnot F(x) ) \\
+                                & \equiv \forall x ( x \in D \to \lnot F(x) ) \\
+                                & \equiv \forall x \in D ( \lnot F(x) ).
+  \end{align*}
+\item[\refque{que:tototo}] \mbox{} \\
+  シークエント$A \to ( B \to C) \Longrightarrow A \land B \to C$の導出をする．
+    \begin{enumerate}[1. ]
+      \item $A \to ( B \to C) \Longrightarrow A \to (B \to C)$ 
+             \quad ［始式］
+      \item $A \land B \Longrightarrow A \land B$ \quad ［始式］
+      \item $A \land B \Longrightarrow A$ \quad ［2.から$\land$除去による］
+      \item $A \land B ,  A \to ( B \to C) \Longrightarrow B \to C$
+             \quad ［$1., 3.$から$\to$除去による］
+      \item $A \land B \Longrightarrow B$ \quad ［2.から$\land$除去による］
+      \item $A \land B ,  A \to ( B \to C) \Longrightarrow C$
+             \quad ［$4., 5.$から$\to$除去による］
+      \item $A \to (B \to C ) \Longrightarrow A \land B \to C$
+             \quad ［6.から$\to$導入による］
+    \end{enumerate}
+    逆向きのシークエントも同様に導出できる．
+\item[\refque{que:Peirce}] \mbox{}
+  \begin{enumerate}[1. ]
+    \item $(A \to B)  \to A \Longrightarrow (A \to B) \to A$ \quad ［始式］ 
+    \item $\lnot A \Longrightarrow \lnot A$ \quad ［始式（背理法で示す）］
+    \item $A \Longrightarrow A$ \quad ［始式］
+    \item $\lnot A ,  A \Longrightarrow \curlywedge$ \quad ［$2., 3.$から$\lnot$除去による］
+    \item $\lnot A ,  A \Longrightarrow B$ \quad ［4.から矛盾による］
+    \item $\lnot A \Longrightarrow A \to B$ \quad ［5.から$\to$導入による］
+    \item $\lnot A,  (A \to B) \to A \Longrightarrow A$ \quad ［$1., 6.$から$\to$除去による］ 
+    \item $\lnot A,  (A \to B) \to A \Longrightarrow \curlywedge$
+           \quad ［$2., 7.$から$\lnot$除去による］
+    \item $(A \to B) \to A \Longrightarrow \lnot \lnot A$ \quad ［8.から$\lnot$導入による］
+    \item $(A \to B) \to A \Longrightarrow A$ \quad ［9.から2重否定の除去による］
+  \end{enumerate}
+\item[\refque{que:togentei}] \mbox{} \\
+  定理\ref{thm:genteito}と同様に示せる．
+\item[\refque{que:genteilandor}] \mbox{} \\
+  シークエント$\forall x (F(x) \lor A) \Longrightarrow \forall x F(x) \lor A$
+  は背理法によって導出できる．あとは容易である．
+\item[\refque{que:genteikoukan}] \mbox{} \\
+  式\eqref{eq:forallkoukan}の証明は容易である．
+  式\eqref{eq:existskoukan}の証明のうち，
+  シークエント$\exists x \exists y F(x,y) \Longrightarrow \exists y \exists x F(x,y)$
+  を導出しよう．
+  \begin{enumerate}[1. ]
+    \item $\exists x \exists y F(x,y) \Longrightarrow \exists x \exists y F(,y)$
+           \quad ［始式］
+    \item $\exists y F(a, y) \Longrightarrow \exists y F(a,y)$
+           \quad ［始式（$a$は新たな自由変数）］
+    \item $F(a, b) \Longrightarrow F(a,b)$ \quad ［始式（$b$は新たな自由変数）］
+    \item $F(a,b) \Longrightarrow \exists x F(x,b)$ \quad ［3.から$\exists$導入による］
+    \item $F(a,b) \Longrightarrow \exists y \exists x F(x,y)$
+           \quad ［4.から$\exists$導入による］
+    \item $\exists y F(a,y) \Longrightarrow \exists y \exists x F(x,y)$
+           \quad ［$2., 5.$から$\exists$除去による］
+         \item $\exists x \exists y F(x,y) \Longrightarrow \exists y \exists x F(x,y)$
+           \quad ［$1., 6.$から$\exists$除去による］
+  \end{enumerate}
+  逆向きのシークエントもまったく同様にして導出できることは明らかであろう．
+\item[\refque{que:circdouti}] \mbox{} \\
+  cut規則を繰り返し用いればよい．
+\item[\refque{que:taisyousuii}] \mbox \\
+  式\eqref{eq:taisyouritu}を導出する．
+  \begin{enumerate}[1. ]
+    \item $a =b \Longrightarrow a =a \to b =a$ \quad ［置換法則］
+    \item $\qquad \Longrightarrow a =a$ \quad ［反射律］
+    \item $a = b \Longrightarrow b =a$ \quad ［$1., 2.$から$\to$除去による］
+  \end{enumerate}
+  次に，式\eqref{eq:suiiritu}を導出する．
+  \begin{enumerate}[1. ]
+    \item $a =b \land b=c \Longrightarrow a = b \land b =c$ \quad ［始式］
+    \item $b=a \Longrightarrow b=c \to a=c$ \quad ［置換法則］
+    \item $a = b \Longrightarrow b =a$ \quad ［対称律］
+    \item $a=b \land b=c \Longrightarrow a=b$ \quad ［1.から$\land$除去による］
+    \item $a=b \land b=c \Longrightarrow b=a$ \quad ［$3., 4.$からcutによる］
+    \item $a=b \land b=c \Longrightarrow b=c \to a=c$ \quad ［$2., 5.$からcutによる］
+    \item $a =b \land b=c \Longrightarrow b=c$ \quad ［1.から$\land$除去による］
+    \item $a=b \land b=c \Longrightarrow a=c$ \quad ［$6., 7.$から$\to$除去による］
+  \end{enumerate}
+\item[\refque{que:2tusonzaihitei}] \mbox{} \\
+  証明済みの関係式を用いれば容易であろう．
+\item[\refque{que:tadahitotuexists}] \mbox{} \\
+  式\eqref{eq:uniquetakadaka}の導出をする．ほかは省略する．
+  \begin{enumerate}[1. ]
+    \item $\exists x \forall y (F(y) \to y=x)
+           \Longrightarrow \exists x \forall y (F(y) \to y=x)$ \quad ［始式］
+    \item $F(a) \land F(b) \Longrightarrow F(a) \land F(b) $ 
+           \quad ［始式（$a,  b$は新たな自由変数）］
+    \item $\forall y (F(y) \to y=c) \Longrightarrow \forall y (F(y) \to y=c)$
+           \quad ［始式（$c$は新たな自由変数）］
+    \item $F(a) \land F(b) \Longrightarrow F(a)$ \quad ［2.から$\land$除去による］
+    \item $\forall y (F(y ) \to y=c ) \Longrightarrow F(a) \to a =c $
+           \quad ［3.から$\forall$除去による］
+    \item $\forall y (F(y) \to y=c) ,  F(a) \land F(b) \Longrightarrow a =c$
+           \quad ［$3., 4.$から$\to$除去による］
+    \item $F(a) \land F(b) \Longrightarrow F(b)$ \quad ［2.から$\land$除去による］
+    \item $\forall y (F(y) \to y=c) \Longrightarrow F(b) \to b=c$
+           \quad ［3.から$\forall$除去による］
+    \item $\forall y (F(y) \to y =c) ,  F(a) \land F(b) \Longrightarrow b =c$
+           \quad ［$7., 8.$から$\to$除去による］
+    \item $b=c \Longrightarrow c =b$ \quad ［対称律］
+    \item $\forall y (F(y) \to y =c) ,  F(a) \land F(b) 
+           \Longrightarrow c =b$ \quad ［$9., 10.$からcutによる］
+    \item $\forall y (F(y) \to y=c) \Longrightarrow a =c \land c=b$ 
+           \quad ［$6., 11.$から$\land$導入による］
+    \item $a=c \land c=b \Longrightarrow a=b$ \quad ［推移律］
+    \item $\forall y (F(y) \to y=c) ,  F(a) \land F(b) 
+           \Longrightarrow a =b$ \quad ［$12., 13.$からcutよる］
+    \item $\forall y (F(y) \to y =c) \Longrightarrow 
+           F(a) \land F(b) \to a =b$ \quad ［14.から$\to$導入による］
+    \item $\forall y (F(y) \to y=c) \Longrightarrow 
+           \forall y (F(a) \land F(y) \to a =y)$ \quad ［15.から$\forall$導入による］
+    \item $\forall y(F(y) \to y=c) \Longrightarrow 
+           \forall x \forall y (F(x) \land F(y) \to x=y)$ \quad ［16.から$\forall$導入による］
+    \item $\exists x \forall y (F(y) \to y=x) \Longrightarrow 
+           \forall x \forall y (F(x) \land F(y) \to x=y )$
+           \quad ［$1., 17.$から$\exists$除去による］
+  \end{enumerate}
+\end{description}

@@ -1,0 +1,78 @@
+\indexentry {Euclidきかがく@Euclid幾何学}{6}
+\indexentry {Euclidきかがく@Euclid幾何学!ひEuclidきかがく@非---}{6}
+\indexentry {こうり@公理 \, axiom!もでる@---系のモデル \, model}{6}
+\indexentry {えるらんげんぷろぐらむ@エルランゲン・プログラム}{7}
+\indexentry {むていぎじゅつご@無定義術語 \, undefined term}{8}
+\indexentry {こうり@公理 \, axiom}{8}
+\indexentry {こうり@公理 \, axiom!こうりろん@---論 \, axiomatics}{8}
+\indexentry {しょうめい@証明 \, proof}{9}
+\indexentry {けいしきしゅぎ@形式主義 \, formalism}{9}
+\indexentry {むむじゅんせい@無矛盾性 \, consistency}{9}
+\indexentry {どくりつせい@独立性 \, independence}{9}
+\indexentry {こうり@公理 \, axiom!こうりしゅぎ@---主義 \, axiomatism}{9}
+\indexentry {ていり@定理 \, theorem}{10}
+\indexentry {けい@系 \, corollary}{10}
+\indexentry {ほだい@補題 \, lemma}{10}
+\indexentry {ていぎ@定義 \, definition}{10}
+\indexentry {ていぎ@定義 \, definition!さいきてきていぎ@再帰的---|see{帰納的定義}}{12}
+\indexentry {ていぎ@定義 \, definition!きのうてきていぎ@帰納的--- \, recursive ---}{12}
+\indexentry {well-defined@well-defined}{14}
+\indexentry {ill-defined@ill-defined}{14}
+\indexentry {どうけい@同型 \, isomorphic}{17}
+\indexentry {はんちゅうせい@範疇性 \, categoricity}{17}
+\indexentry {くうかん@空間 \, space}{19}
+\indexentry {すうがくてきこうぞう@数学的構造 \, mathmatical structure}{19}
+\indexentry {こうぞう@構造 \, structure|see{数学的構造}}{19}
+\indexentry {だいしゅうごう@台集合 \, underlying set}{19}
+\indexentry {しゃぞう@写像 \, mapping!じゅんどうけいしゃぞう@準同型--- \, homomorphism}{21}
+\indexentry {うめこみ@埋め込み \, embedding}{21}
+\indexentry {こうぞう@構造 \, structure!しゅぎ@---主義 \, structuralism}{22}
+\indexentry {めいだい@命題 \, proposition}{24}
+\indexentry {じょうけん@条件 \, condition}{24}
+\indexentry {めいだいかんすう@命題関数 \, propositional function|see{条件}}{24}
+\indexentry {じゅつご@述語 \, prodicate|see{条件}}{25}
+\indexentry {たいしょう@対象 \, object}{25}
+\indexentry {こう@項 \, term}{25}
+\indexentry {めいだい@命題 \, proposition!のひてい@---の否定 \, negation of ---}{25}
+\indexentry {めいだい@命題 \, proposition!のれんげん@---の連言}{26}
+\indexentry {めいだい@命題 \, proposition!のせんげん@---の選言 \, disjunction of ---}{27}
+\indexentry {めいだい@命題 \, proposition!のがんい@---の含意 \, implication}{28}
+\indexentry {めいだい@命題 \, proposition!のどうち@---の同値 \, equivalence}{28}
+\indexentry {めいだい@命題 \, proposition! けつごうきごう@---結合記号 \, proposional connectiove}{29}
+\indexentry {ぜんしょうきごう@全称記号 \, universal quantifier}{30}
+\indexentry {めいだい@命題 \, proposition!ぜんしょう@全称--- \, universal ---}{30}
+\indexentry {そんざいきごう@存在記号 \, existential quantifier}{30}
+\indexentry {めいだい@命題 \, proposition!そんざい@存在--- \quad existential ---}{31}
+\indexentry {げんていきごう@限定記号 \, quantifier}{32}
+\indexentry {じゅつご@述語 \, prodicate!ろんり@---論理 \, --- logic}{32}
+\indexentry {めいだい@命題 \, proposition!ろんり@---論理 \, propositional logic}{32}
+\indexentry {はんれい@反例 \, counter-example}{33}
+\indexentry {そくばくへんすう@束縛変数 \, bound variable}{34}
+\indexentry {じゆうへんすう@自由変数 \, free variable}{34}
+\indexentry {たいしょうりょういき@対象領域 \, domain}{38}
+\indexentry {じょうけん@条件 \, condition!じゅうぶん@十分--- \, sufficient ---}{38}
+\indexentry {じょうけん@条件 \, condition!ひつよう@必要--- \, necessary ---}{38}
+\indexentry {じょうけん@条件 \, condition!ひつようじゅうぶん@必要十分--- \quad necessary and sufficient ---}{39}
+\indexentry {しーくえんと@シークエント \, sequent}{42}
+\indexentry {ししき@始式 \, initial sequent}{44}
+\indexentry {すいろんいきそく@推論規則 \, inference rule}{44}
+\indexentry {どうしゅつかのう@（シークエントが）導出可能 \, derivable}{47}
+\indexentry {しょうめいかのう@（命題が）証明可能 \, provable}{48}
+\indexentry {どうちである@同値である \, equivalent}{48}
+\indexentry {はいちゅうりつ@排中律 \, law of excluded middle}{51}
+\indexentry {はいりほう@背理法 \, reductio ad absurdum}{52}
+\indexentry {どうしゅつず@導出図 \, derivation diagram}{52}
+\indexentry {De Morganのほうそく@De Morganの法則}{55}
+\indexentry {De Morganのほうそく@De Morganの法則}{56}
+\indexentry {ぶんぱいりつ@分配律 \, distributive law}{58}
+\indexentry {ちかんていり@置換定理}{61}
+\indexentry {めいだい@命題 \, proposition!のぎゃく@---の逆 \, converse ---}{62}
+\indexentry {めいだい@命題 \, proposition!のうら@---の裏 \, inverse ---}{62}
+\indexentry {めいだい@命題 \, proposition!のたいぐう@---の対偶 \, contraposition}{62}
+\indexentry {Peirceのほうそく@Peirceの法則}{63}
+\indexentry {とうごう@等号 \, equal sign}{67}
+\indexentry {はんしゃりつ@反射律 \, reflexive law}{68}
+\indexentry {ちかんほうそく@置換法則}{68}
+\indexentry {だいにゅうげんり@代入原理}{68}
+\indexentry {たいしょうりつ@対象律 \, symmetric law}{69}
+\indexentry {すいいりつ@推移律 \, transitive law}{69}
